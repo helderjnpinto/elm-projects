@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Demo @hp left right element</title>
+    <meta charset="utf8" />
+    <style>
+        html,
+        body {
+            background: #EEE;
+            font-family: sans-serif;
+        }
+
+        .divSelection {
+          border: 1px solid black;
+          background-color: #009688;
+ background: linear-gradient(to left,  blue 0%,  blue 50%, red 50%, red 100%);
+          color: white;
+          height: 200px;
+        }
+
+        main {
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <main></main>
+     <script src="main.js"></script>
+    <script>
+
+        var main = document.querySelector("main");
+        var app = Elm.Sample.embed(main);
+    </script>
+</body>
+
+</html>
